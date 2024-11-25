@@ -8,6 +8,7 @@ export default function App() {
         <TextInput
           placeholder="Placeholder"
           right={<TextInput.Icon icon="eye" />}
+          style={{ width: 200, height: 50 }}
         />
       </View>
     </PaperProvider>
