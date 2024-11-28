@@ -1,10 +1,11 @@
-import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, View, Text } from "react-native";
+import { isLoaded } from "expo-font";
 
 export default function App() {
+  const robotoLoaded = isLoaded("Roboto");
   return (
     <View style={styles.container}>
-      <MaterialCommunityIcons name="home" size={24} color="black" />
+      <Text>{robotoLoaded}</Text>
     </View>
   );
 }
