@@ -2,7 +2,7 @@ import React from "react";
 import { waitFor, render } from "@testing-library/react-native";
 import App from "./App";
 
-describe("vector-icons test check", () => {
+describe("expo-font isLoaded check", () => {
   it("should render properly", async () => {
     try {
       const { getByPlaceholderText } = render(<App />);
