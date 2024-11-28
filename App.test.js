@@ -2,7 +2,7 @@ import React from "react";
 import { waitFor, render } from "@testing-library/react-native";
 import App from "./App";
 
-describe("paper test check", () => {
+describe("vector-icons test check", () => {
   it("should render properly", async () => {
     try {
       const { getByPlaceholderText } = render(<App />);

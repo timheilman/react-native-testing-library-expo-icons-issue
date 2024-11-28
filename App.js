@@ -1,17 +1,11 @@
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { StyleSheet, View } from "react-native";
-import { PaperProvider, TextInput } from "react-native-paper";
 
 export default function App() {
   return (
-    <PaperProvider>
-      <View style={styles.container}>
-        <TextInput
-          placeholder="Placeholder"
-          right={<TextInput.Icon icon="eye" />}
-          style={{ width: 200, height: 50 }}
-        />
-      </View>
-    </PaperProvider>
+    <View style={styles.container}>
+      <MaterialCommunityIcons name="home" size={24} color="black" />
+    </View>
   );
 }
 
